@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mein Formular</title>
+</head>
+
+<body>
+
+    <h1>Mein Formular</h1>
+
+    <form action="mailto:lorenzd@spengergasse.at?subject=Mein Formular"
+          method="post"
+          enctype="text/plain">
+
+        Vorname:
+        <input type="text" name="vorname">
+
+        <br><br>
+
+        Nachname:
+        <input type="text" name="nachname">
+
+        <br><br>
+
+        Geschlecht:
+        <br>
+
+        <input type="radio" name="geschlecht" value="maennlich">
+        Männlich
+
+        <input type="radio" name="geschlecht" value="weiblich">
+        Weiblich
+
+        <input type="radio" name="geschlecht" value="divers">
+        Divers
+
+        <input type="radio" name="geschlecht" value="keineAngabe">
+        Keine Angabe
+
+        <br><br>
+
+        Interessen:
+        <br>
+
+        <input type="checkbox" name="interesse" value="sport">
+        Sport
+
+        <input type="checkbox" name="interesse" value="musik">
+        Musik
+
+        <input type="checkbox" name="interesse" value="reisen">
+        Reisen
+
+        <input type="checkbox" name="interesse" value="kunst">
+        Kunst
+
+        <br><br>
+
+        Anrede:
+
+        <select name="anrede">
+            <option value="frau">Frau</option>
+            <option value="herr">Herr</option>
+            <option value="divers">Divers</option>
+        </select>
+
+        <br><br>
+
+        Lieblingsinteressen:
+        <br>
+
+        <select name="lieblingsinteressen" multiple>
+            <option value="sport">Sport</option>
+            <option value="musik">Musik</option>
+            <option value="kunst">Kunst</option>
+            <option value="reisen">Reisen</option>
+        </select>
+
+        <br><br>
+
+        Kommentar:
+        <br>
+
+        <textarea name="kommentar"
+                  placeholder="Fügen Sie Ihren Kommentar ein!">
+        </textarea>
+
+        <br><br>
+
+        <input type="hidden"
+               name="seite"
+               value="formular.html">
+
+        <input type="submit"
+               value="Formular abschicken">
+
+        <input type="reset"
+               value="Formular zurücksetzen">
+
+    </form>
+
+</body>
+
+</html>
