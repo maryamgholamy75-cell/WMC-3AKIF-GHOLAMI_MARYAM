@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Kontaktieren Sie die ORF-Redaktion.">
+  <title>Kontakt | ORF</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#inhalt">Zum Inhalt springen</a>
+  <nav class="site-nav" aria-label="Hauptnavigation">
+    <ul>
+      <li><a href="index.html">News</a></li>
+      <li><a href="top40.html">Ö3 Top 40</a></li>
+      <li><a href="contact.html" aria-current="page">Kontakt</a></li>
+    </ul>
+  </nav>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="ORF News Startseite"><strong>NEWS</strong><img src="https://orf.at/mojo/1_4_1/storyserver//news/news/images/target_news.svg" alt="ORF.at" width="150" height="100"></a>
+    <address>ORF-Zentrum<br>Würzburggasse 30<br>1136 Wien</address>
+  </header>
+  <main id="inhalt">
+    <header class="page-heading"><h1>Kontakt</h1><p>Schreiben Sie uns. Die mit * markierten Felder sind Pflichtfelder.</p></header>
+    <section class="contact-panel" aria-labelledby="formular-titel">
+      <h2 id="formular-titel">Nachricht an die Redaktion</h2>
+      <p class="form-intro">Füllen Sie das Formular aus, um eine Nachricht vorzubereiten.</p>
+      <form class="contact-form" action="#" method="post">
+        <div class="form-field"><label for="name">Ihr Name *</label><input type="text" id="name" name="name" autocomplete="name" required></div>
+        <div class="form-field"><label for="email">Ihre E-Mail-Adresse *</label><input type="email" id="email" name="email" autocomplete="email" required></div>
+        <div class="form-field"><label for="message">Ihre Nachricht *</label><textarea id="message" name="message" rows="8" required></textarea></div>
+        <div class="consent"><input type="checkbox" id="privacy" name="privacy" required><label for="privacy">Ich habe die Datenschutzhinweise gelesen und stimme der Verarbeitung meiner Angaben zur Bearbeitung dieser Nachricht zu. *</label></div>
+        <button class="button" type="submit">Nachricht absenden</button>
+      </form>
+      <p class="note">Hinweis: Dieses Übungsformular ist statisch und versendet keine Nachricht.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><address>ORF-Zentrum · Würzburggasse 30 · 1136 Wien</address><nav aria-label="Rechtliches"><ul><li><a href="#impressum">Impressum</a></li><li><a href="#datenschutz">Datenschutz</a></li></ul></nav></footer>
+</body>
+</html>
